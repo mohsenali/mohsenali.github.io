@@ -1,0 +1,17 @@
+projects:
+  - title: "Domain Adaptation"
+    subtitle: "Self Supervised Learnign for the Semantic Segmentation"
+    thumbnail: "assets/projects/2020_UDA/MLSL-fig1.png"
+    url: "http://im.itu.edu.pk/weakly-supervised-domain-adaptation-for-built-up-region-segmentation-in-aerial-and-satellite-imagery/"
+    selected: y
+  - title: "Affective Computing"
+    subtitle: ""
+    thumbnail: "assets/projects/2017_Affective/affective.png"
+    url: "http://im.itu.edu.pk/affective-computing/"
+    selected: y
+
+  - title: "Economics From Afar"
+    subtitle: "Using Deep Learning to Detecting Slums and Understanding Poverty"
+    thumbnail: "assets/projects/2018_RS/cholistan.jpg"
+    url: "http://im.itu.edu.pk/satellite-imagery-web-page/"
+    selected: y

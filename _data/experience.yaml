@@ -1,0 +1,42 @@
+experiences:
+- place: "Information Technology University"
+  time: "2014 - now"
+  title: "Assistant Professor"
+  subtitle: "Intelligent Machines Lab"
+  category: "work"
+
+- place: "University of Florida"
+  time: "2007-2014"
+  title: "PhD. student"
+  subtitle: "CISE: Department of Computer and Information Science and Engineering <br/> Fulbright Scholarship <br/>"
+  category: "school"
+
+- place: "Fulbright Scholar"
+  time: "2007-2014"
+  title: "PhD. student"
+  subtitle: " "
+  category: "school"
+
+- place: "LUMS"
+  time: "2003 - 2006"
+  title: "M.Sc. Student"
+  subtitle: "Department of Computer Sicence <br/> Dean’s Honor List<br/>"
+  category: "school"
+
+- place: "Punjab University"
+  time: "2000 - 2002"
+  title: "M.Sc. Student"
+  subtitle: "Punjab University College of Information Technology <br/> Gold Medalist <br/> Merit Scholarship"
+  category: "school"
+
+- place: "Punjab University"
+  time: "1999 - 2000"
+  title: "P.G.D Student"
+  subtitle: "Department of Comptuer Sicence <br/> First Position in Examination <br/>"
+  category: "school"
+
+- place: "Forman Christian College"
+  time: "1997 - 1999"
+  title: "F.Sc. Student"
+  subtitle: "Punjab University"
+  category: "school"
