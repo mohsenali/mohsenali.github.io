@@ -1,30 +1,168 @@
 ---
-layout: default
+layout: moh_default
 title: Personal Webpage
 ---
-<!-- ========== BIO ========== -->
+<!--
 <div class="docs-section" id="bio">
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+</div>
+<!-- ========== BIO ========== -->
+
+<div class="docs-section" id="bio">
+
+<div class="row">
+
+<div class="col-left-1">
+
   <h4>Bio</h4>
+  <p>{{ site.data.main_info.bio }}</p>
+  <!--
   <p>
-  I am Assistant Professor at  <a href="https://itu.edu.pk/"> Information Technology University </a> and co-founder of
+    I am an Assistant Professor at  <a href="https://itu.edu.pk/"> Information Technology University </a> and co-founder of
   <a href="http://im.itu.edu.pk/researches/">Intelligent Machines Lab</a>. IML has been established with the objective to provide platform for researchers and engineers working in machine learning, computer vision and robotics to collaborate and solve real world problems. 
   Mohsen’s current interest lies in theoretical and practical problems entailing Computer Vision and Machine Learning; and apply them in the field of video and image analysis, remote sensing, affective computing and human robot interaction. He works extensively in Deep Learning both extending theoretical foundations and applying to create practical solutions of real-world problems. 
   
-  
-  <!-- at the <a href="https://www.media.mit.edu/">MIT Media Lab</a> advised by Deb Roy.
+  at the <a href="https://www.media.mit.edu/">MIT Media Lab</a> advised by Deb Roy.
   I love studying data and people.
   My research interests lie at the intersection of Causal Inference, Machine Learning, and Social Network Analysis.
   I am passionate about (i) drawing insights from data, (ii) designing interventions, and (iii) running randomized experiments.
   I spent the summer of 2019 at <a href="https://research.fb.com/teams/core-data-science/">Facebook's Core Data Science</a> team studying users who bring people together.
--->
-  </p>
-  <!--
+</p>
+
   <p>
   Prior to coming to MIT, I interned at Yahoo! Labs in Barcelona and the Amazon Machine Learning team in Berlin.
   I spent one year in Paris and one year in Barcelona to do a M.Sc. in Data mining and Knowledge Management.
   I got my B.Sc. from Staffordshire University with a First Class honors in Computer Science.
   </p>
   -->
+</div>
+<div class="col-right-1">
+  <h4>Recent</h4>
+ <font size=2px>
+ . Reviewing for CVPR 2021 <br>
+ . Akhtar Munir, clears Phd proposal stage<br>
+ . Work on exploiting scale invariances in the source domain, to regulate adaptation accepted at #ECCV2020.We believe it was 1st time work completely done in Pakistan was accepted in this venue. <br>
+ . Presented in Change Seminar, University of Washington 
+ </font>
+</div>
+
+</div>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
+  <sup>‡</sup> indicates equal contribution.
+  </p>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+<ul class="listType">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper" >
+        <li><span class="title"><b>asdfd{{ paper.title }}</b></span>          
+          <p class="authorList">{{ paper.authors }}</p>
+          <p class="venuName"> {{ paper.venue }} </p>
+			<font color="blue">
+			{% if paper.paper_pdf %}
+              [<a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }} " target="_blank" style="text-decoration: none">Paper</a>]
+            {% endif %}
+			
+			{% if paper.slides %}
+             [ <a class="notbutton" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>]
+            {% endif %}
+
+            {% if paper.poster %}
+              [<a class="notbutton" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>]
+            {% endif %}
+
+            {% if paper.video %}
+              [<a class="notbutton" href="{{ paper.video }}" target="_blank">Video</a>]
+            {% endif %}
+
+            {% if paper.code %}
+              [<a class="notbutton" href="{{ paper.code }}" target="_blank">Code</a>]
+            {% endif %}
+			
+			</font>
+ <!--
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" style="text-decoration: none">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </div>
+		  -->
+		  </li>
+        </div>
+      {% endfor %}
+	  </ul>
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 <!-- ========== PROJECTS ========== -->
@@ -98,91 +236,8 @@ title: Personal Webpage
       {% endfor %}
     </div>
   </div>
+
 </div>
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  <sup>‡</sup> indicates equal contribution.
-  </p>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-			
-			{% if paper.page %}
-              <a class="button" href="{{ paper.page | prepend: site.baseurl }}" target="_blank">Project Page</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
@@ -213,8 +268,19 @@ title: Personal Webpage
 
 <div class="docs-section" id="template">
     <h4>Website Design</h4>
-Taken from  <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
+    Since I made this website many people have found this Jekyll template useful
+    <a href="https://people.csail.mit.edu/davidam/" target="_blank">[1]</a>
+    <a href="https://thashim.github.io/" target="_blank">[2]</a>
+    <a href="https://pauljwright.github.io/" target="_blank">[3]</a>
+    <a href="https://bayesianbrad.github.io/" target="_blank">[4]</a>
+    <a href="https://ahxt.github.io/" target="_blank">[5]</a>
+    <a href="https://people.csail.mit.edu/chang87/" target="_blank">[6]</a>
+    <a href="https://jiayuzhou.github.io/" target="_blank">[7]</a>.
+    <br/>
+
+    You can find all the code you need to build your own website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
     Feel free to use it. <br/>
 
-    
+    If you end up using it, please link to here and drop me an email.
+    I'm always happy to see people using it.
 </div>
