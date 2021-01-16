@@ -8,6 +8,7 @@ papers:
   
   - title: "Weakly-supervised domain adaptation for built-up region segmentation in aerial and satellite imagery"
     authors: "Javed Iqbal, Mohsen Ali"
-    venue: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    venue: "ISPRS Journal of Photogrammetry and Remote Sensing, 2020."
     paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
+    page: "http://im.itu.edu.pk/wan/" 
     selected: y
