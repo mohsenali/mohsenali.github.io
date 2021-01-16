@@ -5,8 +5,8 @@ papers:
     venue: "European Conference on Computer Vision, 2020."
     paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
     selected: y
-
- - title: "Weakly-supervised domain adaptation for built-up region segmentation in aerial and satellite imagery"
+  
+  - title: "Weakly-supervised domain adaptation for built-up region segmentation in aerial and satellite imagery"
     authors: "Javed Iqbal, Mohsen Ali"
     venue: "ISPRS Journal of Photogrammetry and Remote Sensing"
     paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
