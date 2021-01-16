@@ -1,5 +1,5 @@
 ---
-layout: moh_default
+layout: default
 title: Personal Webpage
 ---
 <!--
@@ -78,7 +78,7 @@ title: Personal Webpage
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper" >
-        <li><span class="title"><b>asdfd{{ paper.title }}</b></span>          
+        <li><span class="title"><b>{{ paper.title }}</b></span>          
           <p class="authorList">{{ paper.authors }}</p>
           <p class="venuName"> {{ paper.venue }} </p>
 			<font color="blue">
