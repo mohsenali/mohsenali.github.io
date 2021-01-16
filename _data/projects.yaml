@@ -12,6 +12,6 @@ projects:
 
   - title: "Economics From Afar"
     subtitle: "Using Deep Learning to Detecting Slums and Understanding Poverty"
-    thumbnail: "assets/projects/2018_RS/cholistan.jpg"
+    thumbnail: "assets/projects/2018_RS/Cholistan.jpg"
     url: "http://im.itu.edu.pk/satellite-imagery-web-page/"
     selected: y
