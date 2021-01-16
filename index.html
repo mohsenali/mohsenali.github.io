@@ -141,6 +141,10 @@ title: Personal Webpage
             {% if paper.code %}
               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
             {% endif %}
+			
+			{% if paper.page %}
+              <a class="button" href="{{ paper.page | prepend: site.baseurl }}" target="_blank">Project Page</a>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
