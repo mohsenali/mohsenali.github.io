@@ -87,7 +87,9 @@ title: Personal Webpage
 			{% if paper.paper_pdf %}
               [<a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }} " target="_blank" style="text-decoration: none">Paper</a>]
             {% endif %}
-			
+			{% if paper.page %}
+              [<a class="notbutton" href="{{ paper.page | prepend: site.baseurl }}" target="_blank">Project Page</a>]
+            {% endif %}
 			{% if paper.slides %}
              [ <a class="notbutton" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>]
             {% endif %}
@@ -133,7 +135,42 @@ title: Personal Webpage
       {% endfor %}
 	  </ul>
     </div>
+		  
+	     <div class="tab-pane" id="papers-all">
+		<ul class="listType">
+		      {% for paper in site.data.publications.papers %}
+        <div class="paper" >
+        <li><span class="title"><b>{{ paper.title }}</b></span>          
+          <p class="authorList">{{ paper.authors }}</p>
+          <p class="venuName"> {{ paper.venue }} </p>
+			<font color="blue">
+			{% if paper.paper_pdf %}
+              [<a class="notbutton" href="{{ paper.paper_pdf | prepend: site.baseurl }} " target="_blank" style="text-decoration: none">Paper</a>]
+            {% endif %}
+			
+			{% if paper.slides %}
+             [ <a class="notbutton" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>]
+            {% endif %}
 
+            {% if paper.poster %}
+              [<a class="notbutton" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>]
+            {% endif %}
+
+            {% if paper.video %}
+              [<a class="notbutton" href="{{ paper.video }}" target="_blank">Video</a>]
+            {% endif %}
+
+            {% if paper.code %}
+              [<a class="notbutton" href="{{ paper.code }}" target="_blank">Code</a>]
+            {% endif %}
+			
+			</font>
+ 		  </li>
+        </div>
+      {% endfor %}
+	  </ul>
+    </div>
+	<!--
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
@@ -164,6 +201,7 @@ title: Personal Webpage
         </div>
       {% endfor %}
     </div>
+  -->
   </div>
 </div>
 

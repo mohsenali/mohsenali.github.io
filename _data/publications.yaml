@@ -4,11 +4,23 @@ papers:
     authors: "N. Subhani, Mohsen Ali"
     venue: "European Conference on Computer Vision, 2020."
     paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
+    year: "2020"
     selected: y
   
   - title: "Weakly-supervised domain adaptation for built-up region segmentation in aerial and satellite imagery"
     authors: "Javed Iqbal, Mohsen Ali"
     venue: "ISPRS Journal of Photogrammetry and Remote Sensing, 2020."
-    paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
+    paper_pdf: "https://arxiv.org/pdf/2007.02277.pdf"
     page: "http://im.itu.edu.pk/wan/" 
+    year: "2020"
     selected: y
+   
+  - title: "MLSL: Multi-Level Self-Supervised Learning for Domain Adaptation with Spatially Independent and Semantically Consistent Labeling"
+    authors: "Javed Iqbal, Mohsen Ali"
+    venue: "The IEEE Winter Conference on Applications of Computer Vision, 2020."
+    paper_pdf: "https://openaccess.thecvf.com/content_WACV_2020/papers/Iqbal_MLSL_Multi-Level_Self-Supervised_Learning_for_Domain_Adaptation_with_Spatially_Independent_WACV_2020_paper.pdf"
+    page: "http://im.itu.edu.pk/uda-ss/" 
+    code: "https://github.com/engrjavediqbal/MLSL"
+    year: "2020"
+    selected: y
+
