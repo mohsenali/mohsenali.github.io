@@ -29,6 +29,8 @@ papers:
     venue: "ISPRS Journal of Photogrammetry and Remote Sensing, 2020."
     paper_pdf: "https://arxiv.org/pdf/2007.02277.pdf"
     page: "http://im.itu.edu.pk/wan/" 
+    dataset: "https://drive.google.com/file/d/1cYdc2-WWuHwv3tMvjpxRVpBRh5pZQbza/view?usp=sharing"
+    code: "https://github.com/engrjavediqbal/wan"
     year: "2020"
     selected: y
    
