@@ -1,13 +1,13 @@
 papers: 
   - title: "SSAL: Synergizing between Self-Training and Adversarial Learning for Domain Adaptive Object Detection"
-    Authors: "Muhammad Akhtar Munir, Muhammad Haris Khan, M Sarfraz, Mohsen Ali"
-    Venue: "Advances in Neural Information Processing Systems (NeurIPS)"
-    Paper_pdf: "https://proceedings.neurips.cc/paper/2021/file/c0cccc24dd23ded67404f5e511c342b0-Paper.pdf"
-    Page: "https://proceedings.neurips.cc/paper/2021/hash/c0cccc24dd23ded67404f5e511c342b0-Abstract.html"
-    Code: "not available"
-    Dataset: "not available"
-    Year: "2021"
-    Selected: y
+    authors: "Muhammad Akhtar Munir, Muhammad Haris Khan, M Sarfraz, Mohsen Ali"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+    paper_pdf: "https://proceedings.neurips.cc/paper/2021/file/c0cccc24dd23ded67404f5e511c342b0-Paper.pdf"
+    page: "https://proceedings.neurips.cc/paper/2021/hash/c0cccc24dd23ded67404f5e511c342b0-Abstract.html"
+    code: "not available"
+    dataset: "not available"
+    year: "2021"
+    selected: y
 
   - title: "Leveraging Orientation for Weakly Supervised Object Detection with Application to Firearm Localization"
     authors: "Javed Iqbal, Muhammad Akhtar Munir, Arif Mahmood, Afsheed Rafaqat Ali, and Mohsen Ali"
