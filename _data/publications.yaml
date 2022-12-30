@@ -1,4 +1,14 @@
 papers: 
+  - title: "Towards Low-Cost and Efficient Malaria Detection"
+    authors: "Waqas Sultani, Wajahat Nawaz, Syed Javed, Muhammad Sohail Danish, Asma Saadia, Mohsen Ali"
+    venue: "Computer Vision and Pattern Recognition (CVPR)"
+    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2022/papers/Sultani_Towards_Low-Cost_and_Efficient_Malaria_Detection_CVPR_2022_paper.pdf"
+    page: "http://im.itu.edu.pk/m5-malaria-dataset/"
+    code: "https://github.com/intelligentMachines-ITU/LowCostMalariaDetection_CVPR_2022"
+    dataset: "https://github.com/intelligentMachines-ITU/LowCostMalariaDetection_CVPR_2022"
+    year: "2022"
+    selected: y
+    
   - title: "SSAL: Synergizing between Self-Training and Adversarial Learning for Domain Adaptive Object Detection"
     authors: "Muhammad Akhtar Munir, Muhammad Haris Khan, M Sarfraz, Mohsen Ali"
     venue: "Advances in Neural Information Processing Systems (NeurIPS)"
