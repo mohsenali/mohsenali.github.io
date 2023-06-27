@@ -1,4 +1,14 @@
 papers: 
+  - title: "Towards improving calibration in object detection under domain shift"
+    authors: "Muhammad Akhtar Munir, Muhammad Haris Khan, M Sarfraz, Mohsen Ali"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+    paper_pdf: "https://openreview.net/pdf?id=a7YeDeacHpL"
+    page: "https://im.itu.edu.pk/towards-improving-calibration/"
+    code: "https://github.com/akhtarvision/tcd_calib"
+    dataset: "not available"
+    year: "2022"
+    selected: y
+    
   - title: "Towards Low-Cost and Efficient Malaria Detection"
     authors: "Waqas Sultani, Wajahat Nawaz, Syed Javed, Muhammad Sohail Danish, Asma Saadia, Mohsen Ali"
     venue: "Computer Vision and Pattern Recognition (CVPR)"
