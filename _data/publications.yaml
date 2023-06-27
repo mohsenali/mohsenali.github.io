@@ -38,7 +38,7 @@ papers:
 
   - title: "Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation"
     authors: "N. Subhani, Mohsen Ali"
-    venue: "European Conference on Computer Vision, 2020."
+    venue: "European Conference on Computer Vision (ECCV), 2020."
     paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
     year: "2020"
     selected: y
