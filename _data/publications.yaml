@@ -1,4 +1,14 @@
 papers: 
+  - title: "Few-Shot Domain Adaptive Object Detection for Microscopic Images."
+    authors: "Inayat, Sumayya, Nimra Dilawar, Waqas Sultani, and Mohsen Ali"
+    venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+    paper_pdf: "https://openreview.net/pdf?id=a7YeDeacHpL"
+    page: "https://im.itu.edu.pk/few-shot-daodmi/"
+    code: "https://github.com/intelligentMachines-ITU/Few-Shot-Domain-Adaptive-Object-Detection-MICCIA-2024"
+    dataset: "not available"
+    year: "2024"
+    selected: y
+   
   - title: "Towards improving calibration in object detection under domain shift"
     authors: "Muhammad Akhtar Munir, Muhammad Haris Khan, M Sarfraz, Mohsen Ali"
     venue: "Advances in Neural Information Processing Systems (NeurIPS)"
