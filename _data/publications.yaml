@@ -41,7 +41,7 @@ papers:
 
   - title: "Leveraging Orientation for Weakly Supervised Object Detection with Application to Firearm Localization"
     authors: "Javed Iqbal, Muhammad Akhtar Munir, Arif Mahmood, Afsheed Rafaqat Ali, and Mohsen Ali"
-    venue: "Neurocomputing, 2021"
+    venue: "Neurocomputing"
     paper_pdf: "https://arxiv.org/pdf/1904.10032"
     page: "http://im.itu.edu.pk/orientation-aware-firearms-detection/"
     code: "https://github.com/makhtar17004/orientation-aware-firearm-detection"
@@ -51,21 +51,21 @@ papers:
 
   - title: “Optimal school site selection in Urban areas using deep neural networks"
     authors: “Nimra Zaheer, Saeed-Ul Hassan, Mohsen Ali, Mudassir Shabbir”
-    venue: “Journal of Ambient Intelligence and Humanized Computing, 2021”
+    venue: “Journal of Ambient Intelligence and Humanized Computing”
     year: 2021
     paper_pdf: “https://link.springer.com/article/10.1007%2Fs12652-021-02903-9”
     selected: n
 
   - title: "Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation"
     authors: "N. Subhani, Mohsen Ali"
-    venue: "European Conference on Computer Vision (ECCV), 2020."
+    venue: "European Conference on Computer Vision (ECCV)"
     paper_pdf: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670290.pdf"
     year: "2020"
     selected: y
   
   - title: "Weakly-supervised domain adaptation for built-up region segmentation in aerial and satellite imagery"
     authors: "Javed Iqbal, Mohsen Ali"
-    venue: "ISPRS Journal of Photogrammetry and Remote Sensing, 2020."
+    venue: "ISPRS Journal of Photogrammetry and Remote Sensing."
     paper_pdf: "https://arxiv.org/pdf/2007.02277.pdf"
     page: "http://im.itu.edu.pk/wan/" 
     dataset: "https://drive.google.com/file/d/1cYdc2-WWuHwv3tMvjpxRVpBRh5pZQbza/view?usp=sharing"
@@ -75,7 +75,7 @@ papers:
    
   - title: "MLSL: Multi-Level Self-Supervised Learning for Domain Adaptation with Spatially Independent and Semantically Consistent Labeling"
     authors: "Javed Iqbal, Mohsen Ali"
-    venue: "The IEEE Winter Conference on Applications of Computer Vision, 2020."
+    venue: "The IEEE Winter Conference on Applications of Computer Vision."
     paper_pdf: "https://openaccess.thecvf.com/content_WACV_2020/papers/Iqbal_MLSL_Multi-Level_Self-Supervised_Learning_for_Domain_Adaptation_with_Spatially_Independent_WACV_2020_paper.pdf"
     page: "http://im.itu.edu.pk/uda-ss/" 
     code: "https://github.com/engrjavediqbal/MLSL"
@@ -92,7 +92,7 @@ papers:
 
   - title: "High-Level Concepts for Affective Understanding of Images"
     authors: "Afsheed Rafaqat Ali, Usman Shahid, Mohsen Ali and Jeffrey Ho"
-    venue: "The IEEE Winter Conference on Applications of Computer Vision (WACV),  2017."
+    venue: "The IEEE Winter Conference on Applications of Computer Vision (WACV)."
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/7926664"
     page: "http://im.itu.edu.pk/high-level-concepts-for-affective-understanding-of-images/"
     year: "2017"
@@ -100,7 +100,7 @@ papers:
 
   - title: "Automatic Image Transformation for Inducing Affect"
     authors: "Afsheed Rafaqat Ali and Mohsen Ali"
-    venue: "BMVC 2017."
+    venue: "BMVC"
     paper_pdf: "https://www.researchgate.net/profile/Mohsen_Ali4/publication/332813634_Automatic_Image_transformation_for_inducing_affect"
     page: "http://im.itu.edu.pk/affective-image-transfer//"
     year: "2017"
