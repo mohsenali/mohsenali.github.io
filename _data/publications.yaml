@@ -1,4 +1,14 @@
 papers: 
+  - title: "Leveraging Sparse Annotations for Leukemia Diagnosis  on the Large Leukemia Dataset."
+    authors: "Abdul Rehmana, Talha Meraja, Aiman Mahmood Minhasb, Ayisha Imran, Mohsen Ali, Waqas Sultani, Mubarak Shah"
+    venue: "Medical Image Analysis (MIA)"
+    paper_pdf: "https://arxiv.org/pdf/2504.02602"
+    page: "https://im.itu.edu.pk/sparse-leukemiaattri/"
+    code: "https://github.com/intelligentMachines-ITU/LLD-Large-Leukemia-dataset-for-microscopic-imagery"
+    dataset: "https://drive.google.com/drive/folders/1VJSM5d1ndKtz4AQy7zQfnVGyiyGjRl8W?usp=sharing"
+    year: "2025"
+    selected: y
+    
   - title: "Few-Shot Domain Adaptive Object Detection for Microscopic Images."
     authors: "Inayat, Sumayya, Nimra Dilawar, Waqas Sultani, and Mohsen Ali"
     venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
