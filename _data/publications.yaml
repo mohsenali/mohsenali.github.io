@@ -1,4 +1,14 @@
 papers: 
+   - title: "Uni-Hema: Unified Model for Digital Hematopathology"
+    authors: "Abdul Rehman, Iqra Rasool, Ayisha Imran, Mohsen Ali, and Waqas Sultani."
+    venue: "EEE/CVF Conference on Computer Vision and Pattern Recognition, (CVPR)"
+    paper_pdf: "https://openaccess.thecvf.com/content/CVPR2026/html/Rehman_Uni-Hema_Unified_Model_for_Digital_Hematopathology_CVPR_2026_paper.html"
+    page: "https://github.com/intelligentMachines-ITU/Uni-Hema"
+    code: "https://github.com/intelligentMachines-ITU/Uni-Hema"
+    dataset: "https://github.com/intelligentMachines-ITU/Uni-Hema"
+    year: "2026"
+    selected: y
+    
   - title: "Leveraging Sparse Annotations for Leukemia Diagnosis  on the Large Leukemia Dataset."
     authors: "Abdul Rehmana, Talha Meraja, Aiman Mahmood Minhasb, Ayisha Imran, Mohsen Ali, Waqas Sultani, Mubarak Shah"
     venue: "Medical Image Analysis (MIA)"
