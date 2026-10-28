@@ -1,4 +1,9 @@
 experiences:
+- place: "Information Technology University"
+  time: "2026"
+  title: "Professor"
+  subtitle: ""
+  category: "work"
 - place: "CVPR"
   time: "2024"
   title: "Area Chair"
